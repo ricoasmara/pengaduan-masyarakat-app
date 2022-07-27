@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuAdmin.MenuAdmin">
+
+    <TextView
+        android:id="@+id/Menuadmin"
+        android:layout_marginTop="75dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Menu Admin"
+        android:textSize="25dp"/>
+
+
+    <TextView
+        android:id="@+id/menudatawarga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Menuadmin"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/panel"
+        android:text=" Data Warga"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/menulaporanwarga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/menudatawarga"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/panel"
+        android:text=" Laporan Para Warga "
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/rekaplaporanwarga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/menulaporanwarga"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/panel"
+        android:text=" Rekap Laporan Warga "
+        android:textSize="25dp" />
+</RelativeLayout>

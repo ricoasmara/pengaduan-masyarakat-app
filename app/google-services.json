@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "659517873983",
+    "project_id": "pengaduanmasyakarat",
+    "storage_bucket": "pengaduanmasyakarat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659517873983:android:06b825d58d84dcf788bd8a",
+        "android_client_info": {
+          "package_name": "com.example.pengaduanmasyakarat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659517873983-gnip8bqu4pf9gl0muacib0c1enqukvka.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZF2vQhbVCI9dDQGPglsgHWmfQKBOU1J4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "659517873983-gnip8bqu4pf9gl0muacib0c1enqukvka.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

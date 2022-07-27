@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context=".MenuWarga.MenuWarga">
+
+    <TextView
+        android:id="@+id/data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="data"/>
+    <TextView
+        android:id="@+id/MenuWarga"
+        android:layout_marginTop="75dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Menu Warga"
+        android:textSize="25dp"/>
+
+
+    <TextView
+        android:id="@+id/menupengaduan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/panel"
+        android:drawableRight="@drawable/ic_business_talk"
+        android:layout_marginTop="35dp"
+        android:text=" Input Pengaduan"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_below="@+id/MenuWarga"/>
+
+    <TextView
+        android:id="@+id/menulaporan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/panel"
+        android:drawableRight="@drawable/ic_document"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text=" Laporan Pengaduan "
+        android:textSize="25dp"
+        android:layout_below="@+id/menupengaduan"/>
+
+</RelativeLayout>

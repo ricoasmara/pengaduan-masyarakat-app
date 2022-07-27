@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:id="@+id/daftar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Daftar"
+        android:textSize="25dp"
+        />
+
+    <EditText
+        android:id="@+id/regemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/daftar"
+        android:layout_marginTop="15dp"
+        android:drawablePadding="12dp"
+        android:hint="Username"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/nik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/regemail"
+        android:layout_marginTop="5dp"
+        android:drawablePadding="12dp"
+        android:hint="Nik KTP"
+        android:inputType="number"
+        />
+    <EditText
+        android:id="@+id/nikkk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nik"
+        android:layout_marginTop="5dp"
+        android:drawablePadding="12dp"
+        android:hint="Nik Kartu Keluarga"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nikkk"
+        android:layout_marginTop="5dp"
+        android:drawablePadding="12dp"
+        android:hint="Nama Sesuai KTP"
+        />
+
+    <EditText
+        android:id="@+id/agama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nama"
+        android:layout_marginTop="5dp"
+        android:drawablePadding="12dp"
+        android:hint="Agama Sesuai Ktp"
+        />
+
+    <EditText
+        android:id="@+id/tgllahir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/agama"
+        android:layout_marginTop="5dp"
+        android:drawablePadding="12dp"
+        android:hint="Tempat dan Tanggal Lahir" />
+
+    <EditText
+        android:id="@+id/nomer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tgllahir"
+        android:layout_marginTop="5dp"
+        android:drawablePadding="12dp"
+        android:hint="Nomer Telepon Aktif"
+        android:inputType="number"
+        />
+    <EditText
+        android:id="@+id/alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nomer"
+        android:layout_marginTop="5dp"
+        android:drawablePadding="12dp"
+        android:hint="Alamat Lengkap"
+        />
+
+    <EditText
+        android:id="@+id/regpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/alamat"
+        android:layout_marginTop="5dp"
+        android:drawablePadding="12dp"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <EditText
+    android:id="@+id/regpassword2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:hint="Ulangi Password"
+    android:inputType="textPassword"
+    android:drawablePadding="12dp"
+    android:layout_below="@+id/regpassword"
+    />
+
+    <Button
+        android:id="@+id/btndaftar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/regpassword2"
+        android:text="Daftar" />
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:textSize="20dp"
+        android:id="@+id/loginakun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btndaftar"
+        android:text="Login Akun" />
+</RelativeLayout>

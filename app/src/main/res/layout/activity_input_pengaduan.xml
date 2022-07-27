@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    tools:context=".MenuWarga.InputPengaduan">
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Input Pengaduan Anda"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        />
+
+
+    <TextView
+        android:id="@+id/textnama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text="Masukan Nama "
+        android:textSize="23dp"/>
+
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textnama"
+        android:hint="Masukan Nama Sesuai KTP" />
+
+    <TextView
+        android:id="@+id/texttgl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nama"
+        android:text="Tanggal Pengaduan"
+        android:textSize="23dp"
+        />
+
+
+    <TextView
+        android:id="@+id/tgl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/texttgl"
+        android:layout_marginTop="5dp"
+        android:hint="Tanggal Pengaduan"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textjam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tgl"
+        android:text="Jam Pengaduan"
+        android:textSize="23dp"
+        />
+
+    <TextView
+        android:id="@+id/jam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textjam"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:hint="Jam Pengaduan"
+        android:inputType="datetime" />
+
+    <TextView
+        android:id="@+id/textlaporan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jam"
+        android:text="Laporan Pengaduan"
+        android:textSize="23dp"
+        />
+
+    <EditText
+        android:id="@+id/laporan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textlaporan"
+        android:hint="Laporan Masalah Detail dengan Benar!!"/>
+
+    <TextView
+        android:id="@+id/textsolusi"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/laporan"
+        android:text="Solusi"
+        android:textSize="23dp" />
+
+    <EditText
+        android:id="@+id/solusi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textsolusi"
+        android:hint="Tidak Perlu diisi hanya Admin saja "/>
+
+
+    <Button
+        android:id="@+id/btnlapor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Laporkan"
+        android:layout_below="@+id/solusi"/>
+</RelativeLayout>
